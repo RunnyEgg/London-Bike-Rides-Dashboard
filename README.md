@@ -74,6 +74,7 @@ Through this project, I gained a deeper understanding of:
 ## Project Structure
 
 ```
+├── London Bike Rides - Moving Average and Heatmap Dashboard       # Tableau Packaged Workbook
 ├── london_bikes.ipynb        # Python script for data processing
 ├── london_bikes_final.xlsx   # Excel file with the processed data
 ├── london-bike-sharing-dataset.zip # Zip file that I recieved from Kaggle
