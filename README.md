@@ -40,7 +40,7 @@ I started with the idea of making a project that showcases some of my skills. To
 
 ### Data Processing
 
-I wrote a Python script to process the raw data, which was then saved as an Excel file. The script processes the data to prepare it for visualization. The Python script is included in this repository as `london_bikes.ipynb`.
+I used a Python script to process the raw data, which was then saved as an Excel file. The script processes the data to prepare it for visualization. The Python script is included in this repository as `london_bikes.ipynb`.
 
 ### Data Visualization
 
@@ -52,28 +52,31 @@ With the data ready, I moved on to creating the dashboard in Tableau. The dashbo
 
 The Tableau dashboard can be viewed [here](https://public.tableau.com/app/profile/andrew.skomra/viz/LondonBikeRides-MovingAverageandHeatmapDashboard/LondonBikeRides-MovingAverageandHeatmap).
 
-![image](image.png)
+![image](https://github.com/user-attachments/assets/47970d7f-4f3d-45e4-b944-039db28b0c8a)
+
 
 ## Key Learnings
 
 Through this project, I gained a deeper understanding of:
 
-- **Data Processing**: Enhanced my skills in data manipulation using Python and Pandas.
-- **Data Visualization**: Improved my ability to create interactive and insightful dashboards using Tableau.
+- **Data Cleaning Techniques**: Learned various techniques for cleaning and preparing raw data for analysis, including handling missing values and outliers.
+- **Tableau Skills**: Enhanced proficiency in Tableau, including advanced features like calculated fields, parameters, and dashboard actions.
+- **Problem-Solving Skills**: Developed problem-solving skills by overcoming challenges such as my entire Tableau dashboard crashing and having to restart from the beginning.
 - **Project Management**: Developed a systematic approach to planning and executing data analysis projects.
 
 ## What I Would Like To Do In The Future
 
-- **Advanced Analytics**: Implement predictive modeling for future bike ride counts.
-- **Interactivity**: Add more interactive elements to the dashboard, such as filters and drill-down capabilities.
 - **Data Enrichment**: Explore other data sources and APIs to enrich the analysis further.
+- **Integration with Real-time Data**: Implement a system that continuously updates the dashboard with real-time bike ride data.
+- **Geospatial Analysis**: Incorporate geospatial data to analyze bike rides with respect to different locations in London.
+- **Weather Impact Studies**: Perform detailed studies on how various weather conditions impact bike ride frequencies and patterns.
 
 ## Project Structure
 
 ```
 ├── london_bikes.ipynb        # Python script for data processing
 ├── london_bikes_final.xlsx   # Excel file with the processed data
-├── image.png                 # Screenshot of the Tableau dashboard
+├── london-bike-sharing-dataset.zip # Zip file that I recieved from Kaggle
 ├── README.md                 # Project documentation
 ```
 
